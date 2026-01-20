@@ -1,0 +1,125 @@
+KONSEP DESIGN FTTH
+SMK Telkom 1 Medan
+
+Adalah dasar pemikiran desainer di dalam usahanya memecahkan tuntutan desain maupun problem desain. Suatu seni dalam rangka menyusun suatu perencanaan Jaringan FTTx.
+
+Beberapa pertimbangan dalam proses design FTTx:
+	•	Layanan yang akan di-delivery
+	•	Pemilihan teknologi
+	•	Pemanfaatan alat produksi eksisting
+	•	Biaya
+	•	Keuntungan dan kerugian
+	•	Analisa pasar
+	•	Pengembangan di masa mendatang
+
+Design FTTx harus dapat:
+	1.	Memenuhi kebutuhan pelanggan baik untuk saat ini maupun masa yang akan datang
+	2.	Tepat sasaran
+	3.	Efektif dan efisien
+
+⸻
+
+PRINSIP UMUM DESIGN JARINGAN FTTX
+
+Link Budget
+a. Link budget antara OLT sampai dengan ONU atau ONT maksimal adalah 28 dB.
+b. Untuk mengantisipasi gangguan, desain link budget maksimum adalah 26 dB. Nilai tersebut ekuivalen dengan panjang kabel fiber optik sejauh 8 km.
+c. Apabila panjang fiber optik (feeder + distribusi) melebihi 8 km dan untuk menjaga kualitas sinyal yang diterima pelanggan serta pengembangan demand selanjutnya, maka dapat dipasang mini OLT yang terhubung langsung dengan Metro Ethernet atau ke modul PTP perangkat OLT.
+
+⸻
+
+Topologi Jaringan
+a. Jaringan FTTH yang digelar memiliki jumlah pelanggan maksimal 32 pelanggan per port OLT.
+b. Penggunaan splitter pada jaringan FTTH memiliki ketentuan sebagai berikut:
+	1.	Jaringan Two Stage
+
+	•	ODC: splitter 1:2, 1:4, atau 1:8
+	•	ODP: splitter 1:4, 1:8, 1:16, 2x(1:8), atau 1:32
+	•	Untuk kondisi khusus (daerah catu langsung), pada ODF dan ODP dapat digunakan konfigurasi splitter sesuai kebutuhan (1:2, 1:4, 1:8, 1:16, 1:32)
+
+	2.	Jaringan Single Stage
+Digunakan untuk:
+
+	•	High Rise Building (HRB)
+	•	Perumahan dengan semua rumah dipenuhi sampai roset
+	•	Demand terkonsentrasi dalam jumlah kecil
+	•	Lokasi dengan jarak jangkauan jauh (link budget kritis)
+
+⸻
+
+Konfigurasi Ring
+Konfigurasi RING digunakan sebagai bentuk proteksi pada jaringan feeder fiber optik.
+Jarak maksimum feeder pada konfigurasi RING adalah 8 km.
+
+⸻
+
+Tipe Connector dan Tiang
+	•	Connector yang digunakan pada jaringan FTTx adalah SC-UPC
+	•	Tiang untuk sistem aerial:
+	•	Tiang beton
+	•	Tiang besi
+	•	Tiang kayu
+(beserta aksesoris masing-masing)
+
+⸻
+
+Kontribusi Loss
+Setiap elemen pada jaringan FTTx memberikan kontribusi loss yang berbeda-beda.
+
+⸻
+
+Model Penggelaran Jaringan
+a. Duct system untuk perumahan/HRB yang telah menyiapkan SPBT dan lokasi yang tidak memungkinkan sistem aerial dengan potensi demand tinggi
+b. Aerial system untuk area perumahan dan kawasan Brown Field (BF) serta optimalisasi tiang eksisting
+c. Microduct system untuk HRB dan perumahan yang tidak memungkinkan duct maupun aerial
+
+⸻
+
+Boundary STO
+Menunjukkan bahwa dalam suatu area STO terdapat pelanggan dengan panjang kabel FO (feeder + distribusi) maksimal 8 km.
+
+⸻
+
+Rehosting STO
+
+⸻
+
+Solusi Mini OLT
+
+⸻
+
+DASAR PEMBUATAN DESIGN FTTX
+
+a. Adanya demand baru:
+	•	Demand tumbuh pada lokasi yang sudah ada jaringan FTTH (Brown Field)
+	•	Demand baru pada kawasan yang belum ada jaringan FTTH (Green Field)
+
+b. Penggantian jaringan akibat kebijakan pemerintah:
+	•	Pergeseran jaringan karena pelebaran jalan atau pembangunan lainnya
+	•	Perubahan jaringan dari atas tanah menjadi bawah tanah
+
+c. Modernisasi:
+	•	Peningkatan kualitas layanan karena perubahan teknologi
+	•	Penggantian perangkat obsolete
+	•	Penggantian jaringan rusak akibat bencana alam atau sebab lainnya
+
+⸻
+
+HIGH LEVEL DESIGN (HLD) DAN LOW LEVEL DESIGN (LLD)
+
+Proses pembuatan desain diawali dengan High Level Design (HLD), yaitu desain yang dibuat secara on-desk dengan mengacu pada:
+	•	Data demand
+	•	Gambar dan alpro jaringan eksisting
+	•	Google Earth
+
+Berdasarkan HLD dilakukan survei lapangan untuk klarifikasi dan penyesuaian kondisi lapangan.
+Hasil desain berdasarkan survei lapangan disebut Low Level Design (LLD).
+
+⸻
+
+Ketentuan Alur Kabel
+
+Ketentuan Kabel dan Aksesoris Lainnya
+
+Pelabelan Perangkat, STEL, dan Legenda
+Legenda atau simbol yang digunakan pada Desain Jaringan Distribusi Fiber Optik Terpadu (i-ODN).
