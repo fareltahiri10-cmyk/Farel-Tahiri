@@ -1,0 +1,147 @@
+TEKNISI INSTALASI FIBER OPTIK (TIFO)
+BOOTCAMP SERTIFIKASI
+TEKNISI INSTALASI FIBER OPTIK (TIFO)
+
+⸻
+
+Daftar Isi
+	•	Modul 1 : Menerapkan Prosedur K3
+Kode Unit: TIK.FO01.005.01
+	•	Modul 2 : Menerapkan Pengetahuan Istilah Fiber Optik
+Kode Unit: TIK.FO02.001.01
+	•	Modul 3 : Menerapkan Pengetahuan Jenis Kabel Fiber Optik
+Kode Unit: TIK.FO02.002.01
+	•	Modul 4 : Penyambungan Fiber Optik
+Kode Unit: TIK.FO02.010.01
+	•	Modul 5 : Mengoperasikan Power Meter
+Kode Unit: TIK.FO02.007.01
+	•	Modul 6 : Mengoperasikan OTDR
+Kode Unit: TIK.FO02.012.01
+
+⸻
+
+**MODUL 5
+
+MENGOPERASIKAN POWER METER**
+(Unit Kompetensi: TIK.FO02.007.01)
+
+⸻
+
+Tujuan
+
+Peserta mampu menerapkan pengukuran jaringan fiber optik menggunakan power meter sesuai dengan unit kompetensi TIK.FO02.007.01.
+
+⸻
+
+Pokok Bahasan
+	•	Redaman
+	•	Pengukuran dengan power meter
+
+⸻
+
+Redaman (Rugi-rugi) Fiber Optik
+
+Pada sistem transmisi serat optik, cahaya yang merambat sepanjang serat optik akan mengalami peredaman, sehingga pada ujung penerima kekuatan cahaya menjadi lebih lemah.
+
+Kekuatan cahaya dari dioda laser terbatas dan fotodioda memiliki sensitivitas tertentu untuk mendeteksi sinyal optik. Oleh karena itu, agar sistem telekomunikasi dapat bekerja dengan baik, total rugi-rugi optik harus berada di bawah batas maksimum yang diperbolehkan.
+
+Batas rugi-rugi optik ini telah ditentukan untuk masing-masing sistem telekomunikasi.
+
+⸻
+
+Prinsip Pengukuran
+
+1. Komponen Link Fiber Optik
+	•	Pengirim
+	•	Konektor
+	•	Span serat optik
+	•	Sambungan serat optik (splicing point)
+	•	Penerima
+
+2. Pengukuran dengan Power Meter
+
+Umum
+	•	Digunakan untuk menentukan redaman total (total loss) kabel serat optik secara akurat.
+	•	Redaman bergantung pada panjang gelombang.
+	•	Pengukuran harus sesuai dengan panjang gelombang perangkat transmisi.
+	•	Contoh: Jika sistem bekerja pada 1550 nm, maka sumber cahaya juga harus 1550 nm.
+
+⸻
+
+Pengukuran dalam Satuan Decibel (dB)
+	•	Power meter mengukur rugi daya cahaya pada saluran fiber optik.
+	•	Daya cahaya diukur dalam milliwatt (mW).
+	•	Satuan yang umum digunakan adalah decibel (dB).
+	•	Decibel adalah satuan perbandingan logaritmik antara daya masukan dan keluaran.
+
+Rumus:
+
+G(dB) = 10 x log (daya keluaran / daya masukan)
+
+Jika daya keluaran lebih kecil dari daya masukan, maka hasilnya negatif dan disebut sebagai loss.
+
+L(dB) = 10 x log (daya masukan / daya keluaran)
+
+Contoh:
+	•	Daya masukan = 0,1 mW
+	•	Daya keluaran = 0,05 mW
+
+L(dB) = 10 x log (0,1 / 0,05) = 3 dB
+
+
+⸻
+
+Pengukuran Absolut (dBm)
+
+dBm adalah perbandingan daya sinyal terhadap referensi 1 mW.
+
+P(dBm) = 10 x log (daya / 1 mW)
+
+Contoh:
+	•	0,1 mW = -10 dBm
+	•	0,05 mW = -13 dBm
+
+Loss = -10 dBm – (-13 dBm) = 3 dB
+
+
+⸻
+
+Perlengkapan Optical Power Meter
+
+1. Sumber Cahaya Optik (Optical Light Source)
+	•	Sumber cahaya stabil
+	•	Panjang gelombang sesuai
+	•	Konektor yang tepat
+	•	Mendukung SM/MM
+	•	Menggunakan laser atau LED
+	•	Daya keluaran memadai
+
+2. Optical Power Meter
+	•	Konektor sesuai
+	•	Panjang gelombang sesuai
+	•	Terkalibrasi dalam dBm
+	•	Mendukung SM/MM
+
+⸻
+
+Latihan Soal
+	1.	Daya 10 mW bila dituliskan dalam satuan dBm adalah:
+
+	•	0 dBm
+	•	10 dBm
+	•	30 dBm
+	•	40 dBm
+
+	2.	Redaman pada kabel serat optik akibat faktor instalasi:
+
+	•	Absorption loss
+	•	Scattering loss
+	•	Core size variation loss
+	•	Splice loss
+
+	3.	Pernyataan yang benar tentang redaman pada link serat optik (pilih 2):
+
+	•	Tidak tergantung panjang gelombang
+	•	Tergantung panjang gelombang
+	•	Tidak tergantung panjang kabel
+	•	Tergantung panjang kabel
